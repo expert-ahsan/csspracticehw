@@ -1,0 +1,135 @@
+.element_selector {
+  text-align: center;
+  color: red;
+}
+
+#css_id_selector{
+  text-align: center;
+  color: red;
+}
+
+.class_selector {
+  text-align: center;
+  color: red;
+}
+.grouping_selector01, .grouping_selector02, .grouping_selector03{
+text-align: center;
+color: red;
+}
+
+#example1 {
+  background-image: url(../image/bgimg01.jpg);
+  background-repeat: no-repeat;
+  padding: 0px;
+  color: white;
+}
+
+#bgattch{
+  background-image: url("../image/bgimg02.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+  color: yellow;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+#marginex {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+#paddingex {
+  border: 1px solid black;
+  padding: 25px 50px 75px;
+  background-color: lightblue;
+}
+
+#maxwidth{
+  max-width: 1000px;
+  height: 100px;
+  background-color: powderblue;
+}
+
+#boxmodelex {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+
+p.dotted01 {outline-style: dotted; outline-color: red;}
+p.dashed01 {outline-style: dashed; outline-color: red;}
+p.solid01 {outline-style: solid; outline-color: red;}
+p.double01 {outline-style: double; outline-color: red;}
+p.groove01 {outline-style: groove; outline-color: red;}
+p.ridge01 {outline-style: ridge; outline-color: red;}
+p.inset01 {outline-style: inset; outline-color: red;}
+p.outset01 {outline-style: outset; outline-color: red;}
+
+#csstextex {
+  background-color: lightgrey;
+  color: blue;
+}
+h1.csstextex01 {
+  background-color: black;
+  color: white;
+}
+div.csstextex01 {
+  background-color: blue;
+  color: white;
+}
+
+#textdecoex {
+
+}
+h2.textdecoex{
+text-decoration: overline;
+}
+h3.textdecoex {
+text-decoration: line-through;
+}
+h4.textdecoex {
+text-decoration: underline;
+}
+
+/*======================CSS Text Transformation================================================================*/
+p.uppercase {
+  text-transform: uppercase;
+}
+p.lowercase {
+  text-transform: lowercase;
+}
+p.capitalize {
+  text-transform: capitalize;
+}
+/*======================CSS Text Transformation================================================================*/
+.textshadowex01 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.textshadowex02 {
+    text-shadow: 0 0 3px #FF0000;
+}
+.textshadowex03 {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.textshadowex04 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
